@@ -1,0 +1,104 @@
+/* 1. Reset e variáveis de cor */
+:root {
+    --marrom-escuro: #3e2415;
+    --marrom: #6f4e37;
+    --caramelo: #c68b59;
+    --creme: #f5ebdc;
+    --branco: #fffaf3;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Base da página */
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: var(--creme);
+    color: var(--marrom-escuro);
+    line-height: 1.6;
+}
+
+/* 3. Cabeçalho */
+header {
+    background-color: var(--marrom-escuro);
+    color: var(--creme);
+    text-align: center;
+    padding: 48px 20px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: var(--caramelo);
+    font-size: 1.2rem;
+}
+
+/* 4. Produtos */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 40px 20px;
+}
+
+article {
+    background-color: var(--branco);
+    border-top: 6px solid var(--caramelo);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 24px;
+    width: 260px;
+    text-align: center;
+}
+
+article h2 {
+    margin-bottom: 8px;
+}
+
+article p:last-child {
+    margin-top: 12px;
+    font-weight: bold;
+    color: var(--marrom);
+}
+
+/* 5. Instruções e botão */
+section {
+    max-width: 500px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+section ul {
+    list-style: none;
+    margin: 12px 0 24px;
+}
+
+button {
+    background-color: var(--marrom);
+    color: var(--creme);
+    border: none;
+    border-radius: 8px;
+    padding: 14px 32px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--caramelo);
+}
+
+/* 6. Rodapé */
+footer {
+    background-color: var(--marrom-escuro);
+    color: var(--creme);
+    text-align: center;
+    padding: 20px;
+}
