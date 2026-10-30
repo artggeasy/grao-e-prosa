@@ -24,43 +24,6 @@ Se o total da compra for **R$ 50,00 ou mais**, a pessoa ganha **10% de desconto*
 
 ---
 
-## 🖼️ Captura de tela
-
-![Captura de tela da página da Grão & Prosa](assets/captura-de-tela.png)
-
----
-
-## 🛠️ Tecnologias
-
-- **HTML5** — estrutura da página
-- **CSS3** — visual e organização dos cards (Flexbox)
-- **JavaScript** — a simulação da compra (`prompt`, `Number`, `alert`)
-
-## ▶️ Como executar
-
-1. Baixe ou clone o repositório.
-2. Abra o arquivo `index.html` no navegador (dois cliques nele já funciona).
-3. Clique em **"Simular compra"**.
-4. Digite a quantidade de cada produto (use `0` se não quiser levar).
-5. Veja o resumo da compra na tela.
-
-Não precisa instalar nada.
-
----
-
-## 📁 Estrutura do projeto
-
-```
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-└── assets/
-    └── captura-de-tela.png
-```
-
----
-
 ## ✅ Testes realizados
 
 | Espresso | Cappuccino | Pão | Resultado esperado | Funcionou? |
@@ -114,4 +77,4 @@ Usei o **Claude (IA da Anthropic)** como um professor particular, e não só pra
 
 ---
 
-Feito por **Arthur** 💻☕
+Feito por mim **Arthur** 💻☕
