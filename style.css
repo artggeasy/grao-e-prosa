@@ -52,7 +52,7 @@ article {
     background-color: var(--branco);
     border-top: 6px solid var(--caramelo);
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
     padding: 24px;
     width: 260px;
     text-align: center;
